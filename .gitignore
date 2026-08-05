@@ -1,0 +1,57 @@
+# ── Secrets and local configuration ────────────────────────────────
+# Never commit the OAuth Client ID or any local environment values.
+.env
+.env.local
+.env.*.local
+frontend/.env
+frontend/.env.local
+*.key
+*.pem
+credentials.json
+client_secret*.json
+service-account*.json
+token.json
+
+# ── Local database ─────────────────────────────────────────────────
+# campuscal.db is rebuilt on first run and can contain event titles
+# parsed from a real inbox. It must never be committed.
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+backend/campuscal.db
+
+# ── Python ─────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+
+# ── Node / frontend ────────────────────────────────────────────────
+node_modules/
+dist/
+dist-ssr/
+.vite/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ── Presentation build artefacts ───────────────────────────────────
+deck/render/
+deck/render5/
+deck/render_final/
+deck/node_modules/
+~$*.pptx
+.~lock.*
+
+# ── Editor and OS noise ────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini

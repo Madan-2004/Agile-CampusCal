@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:apps='http://schemas.google.com/apps/2006'>
+  <title>IIMA Mail Sorting Filters</title>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Course Forums</title>
+    <apps:property name='hasTheWord' value='from:noreply@iima.ac.in -subject:&quot;Due on&quot; -subject:&quot;You have submitted&quot; -subject:&quot;Turnitin Digital Receipt&quot;'/>
+    <apps:property name='label' value='IIMA/Course Forums'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Assignments and Quizzes - system</title>
+    <apps:property name='hasTheWord' value='from:noreply@iima.ac.in (subject:&quot;Due on&quot; OR subject:&quot;You have submitted&quot; OR subject:&quot;Turnitin Digital Receipt&quot;)'/>
+    <apps:property name='label' value='IIMA/Assignments &amp; Quizzes'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Assignments and Quizzes - Coursera and Turnitin</title>
+    <apps:property name='hasTheWord' value='from:coursera.org OR from:turnitin.com'/>
+    <apps:property name='label' value='IIMA/Assignments &amp; Quizzes'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Section Admin</title>
+    <apps:property name='hasTheWord' value='from:biplabu@iima.ac.in OR from:pariy@iima.ac.in OR from:phd23urvid@iima.ac.in OR from:samratr@iima.ac.in OR from:sumeetr@iima.ac.in OR from:lab@iima.ac.in OR from:tarunj@iima.ac.in OR from:publications@iima.ac.in OR from:yugamp@iima.ac.in OR from:chr-pgp@iima.ac.in OR from:gmk@iima.ac.in OR from:foraamv@iima.ac.in OR from:saswatir@iima.ac.in OR from:saumyat@iima.ac.in OR from:jyotit@iima.ac.in OR from:saravanan@iima.ac.in OR from:tanyam@iima.ac.in OR from:pgp@iima.ac.in OR from:pgp-acads@iima.ac.in OR from:prep@iima.ac.in OR from:admission@iima.ac.in OR from:am-pgp3@iima.ac.in OR from:esampark@iima.ac.in OR from:agm-pgp@iima.ac.in OR from:chr-ob@iima.ac.in OR from:noreply-online@iima.ac.in OR from:am-pgpfabm1@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Section Admin'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Exam Notices</title>
+    <apps:property name='hasTheWord' value='from:pgpexams@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Exam Notices'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>REM and Doubt Sessions</title>
+    <apps:property name='hasTheWord' value='from:acads@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/REM &amp; Doubt Sessions'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Hostel and Facilities</title>
+    <apps:property name='hasTheWord' value='from:electricbilling@iima.ac.in OR from:donotreplyelectricbilling@iima.ac.in OR from:sao@iima.ac.in OR from:exec-sao1@iima.ac.in OR from:gm-ese@iima.ac.in OR from:manager-sa@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Hostel &amp; Facilities'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Wellness</title>
+    <apps:property name='hasTheWord' value='from:manager-ews@iima.ac.in OR from:panacea@iima.ac.in OR from:ews@iima.ac.in OR from:welfareoff@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Wellness'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Library</title>
+    <apps:property name='hasTheWord' value='from:libraryit@iima.ac.in OR from:books@iima.ac.in OR from:librarian@iima.ac.in OR from:genadminvsl@iima.ac.in OR from:circulation@iima.ac.in OR from:elibrary.support@openpage.com'/>
+    <apps:property name='label' value='IIMA/Library'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Seminars and Talks</title>
+    <apps:property name='hasTheWord' value='subject:&quot;[Seminar NB]&quot; OR from:speakerseries@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Seminars &amp; Talks'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>General Notice Board</title>
+    <apps:property name='hasTheWord' value='subject:&quot;[Gen NB]&quot;'/>
+    <apps:property name='label' value='IIMA/General Notice Board'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>SIF</title>
+    <apps:property name='hasTheWord' value='to:iima-sif@iima.ac.in -from:optima@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/SIF'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Placement Committee</title>
+    <apps:property name='hasTheWord' value='subject:&quot;[PLACECOM]&quot; OR from:pgpplacementprep@iima.ac.in OR from:recruitmentsecretary@iima.ac.in OR from:placementfines@iima.ac.in OR from:placementcalendar@iima.ac.in OR from:skynet@iima.ac.in OR to:placementcvproofs@iima.ac.in OR cc:placementcvproofs@iima.ac.in OR cc:plcoffice@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Placement Committee'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Career Clubs</title>
+    <apps:property name='hasTheWord' value='from:niche@iima.ac.in OR from:gmlc@iima.ac.in OR from:pmtechclub@iima.ac.in OR from:consultclub@iima.ac.in OR from:beta@iima.ac.in OR from:eloquence@iima.ac.in OR from:optima@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Career Clubs'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Student Governance</title>
+    <apps:property name='hasTheWord' value='from:sjc@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Student Governance'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>The Ken</title>
+    <apps:property name='hasTheWord' value='from:info@the-ken.com'/>
+    <apps:property name='label' value='IIMA/The Ken'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Personal and Govt - Govt and security</title>
+    <apps:property name='hasTheWord' value='from:no-reply-rtionline@nic.in OR from:noreply-dopt@gov.in OR from:accounts.google.com OR from:calendar-noreply@google.com OR from:mail-noreply@google.com'/>
+    <apps:property name='label' value='IIMA/Personal &amp; Govt'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Personal and Govt - accounts and systems</title>
+    <apps:property name='hasTheWord' value='from:tm.openai.com OR from:epigeum.com OR from:ccsupport@iima.ac.in OR from:network1@iima.ac.in OR from:sapapp@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Personal &amp; Govt'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Form Receipts</title>
+    <apps:property name='hasTheWord' value='from:forms-receipts-noreply@google.com'/>
+    <apps:property name='label' value='IIMA/Form Receipts'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Other Clubs - part 1</title>
+    <apps:property name='hasTheWord' value='from:mediacell@iima.ac.in OR from:cultcomm@iima.ac.in OR from:madclub@iima.ac.in OR from:prayaas@iima.ac.in OR from:pawsible@iima.ac.in OR from:trbc@iima.ac.in OR from:slc@iima.ac.in OR from:ccc@iima.ac.in OR from:careers-ec@iima.ac.in OR from:mentorshipteam@iima.ac.in OR from:scholarship@iima.ac.in OR from:sac_scholarship@iima.ac.in OR from:fab_club@iima.ac.in OR from:eosc@iima.ac.in OR from:finesse@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Other Clubs'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+  <entry>
+    <category term='filter'></category>
+    <title>Other Clubs - part 2</title>
+    <apps:property name='hasTheWord' value='from:mosaic@iima.ac.in OR from:exchangecouncil@iima.ac.in OR from:entre@iima.ac.in OR from:akashk@iima.ac.in OR from:literarydesk@iima.ac.in OR from:extandexch-ec@iima.ac.in OR from:fests-ec@iima.ac.in OR from:sportscomm@iima.ac.in OR from:messcomm@iima.ac.in OR from:mediasecretary@iima.ac.in OR from:infraitdorm-ec@iima.ac.in OR from:ctl@iima.ac.in OR from:soulcurry@iima.ac.in OR from:caooffice@iima.ac.in OR from:bpgpicc@iima.ac.in OR from:generalsecretary@iima.ac.in OR from:culturalsecretary@iima.ac.in'/>
+    <apps:property name='label' value='IIMA/Other Clubs'/>
+    <apps:property name='shouldArchive' value='false'/>
+  </entry>
+
+</feed>

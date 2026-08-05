@@ -1,0 +1,132 @@
+{
+  "source": "gmail_filters_import.xml",
+  "count": 21,
+  "rules": [
+    {
+      "title": "General Notice Board",
+      "label": "IIMA/General Notice Board",
+      "query": "subject:\"[Gen NB]\"",
+      "priority": 1
+    },
+    {
+      "title": "Placement Committee",
+      "label": "IIMA/Placement Committee",
+      "query": "subject:\"[PLACECOM]\" OR from:pgpplacementprep@iima.ac.in OR from:recruitmentsecretary@iima.ac.in OR from:placementfines@iima.ac.in OR from:placementcalendar@iima.ac.in OR from:skynet@iima.ac.in OR to:placementcvproofs@iima.ac.in OR cc:placementcvproofs@iima.ac.in OR cc:plcoffice@iima.ac.in",
+      "priority": 2
+    },
+    {
+      "title": "Seminars and Talks",
+      "label": "IIMA/Seminars & Talks",
+      "query": "subject:\"[Seminar NB]\" OR from:speakerseries@iima.ac.in",
+      "priority": 3
+    },
+    {
+      "title": "Assignments and Quizzes - system",
+      "label": "IIMA/Assignments & Quizzes",
+      "query": "from:noreply@iima.ac.in (subject:\"Due on\" OR subject:\"You have submitted\" OR subject:\"Turnitin Digital Receipt\")",
+      "priority": 4
+    },
+    {
+      "title": "Assignments and Quizzes - Coursera and Turnitin",
+      "label": "IIMA/Assignments & Quizzes",
+      "query": "from:coursera.org OR from:turnitin.com",
+      "priority": 5
+    },
+    {
+      "title": "Exam Notices",
+      "label": "IIMA/Exam Notices",
+      "query": "from:pgpexams@iima.ac.in",
+      "priority": 6
+    },
+    {
+      "title": "REM and Doubt Sessions",
+      "label": "IIMA/REM & Doubt Sessions",
+      "query": "from:acads@iima.ac.in",
+      "priority": 7
+    },
+    {
+      "title": "Section Admin",
+      "label": "IIMA/Section Admin",
+      "query": "from:biplabu@iima.ac.in OR from:pariy@iima.ac.in OR from:phd23urvid@iima.ac.in OR from:samratr@iima.ac.in OR from:sumeetr@iima.ac.in OR from:lab@iima.ac.in OR from:tarunj@iima.ac.in OR from:publications@iima.ac.in OR from:yugamp@iima.ac.in OR from:chr-pgp@iima.ac.in OR from:gmk@iima.ac.in OR from:foraamv@iima.ac.in OR from:saswatir@iima.ac.in OR from:saumyat@iima.ac.in OR from:jyotit@iima.ac.in OR from:saravanan@iima.ac.in OR from:tanyam@iima.ac.in OR from:pgp@iima.ac.in OR from:pgp-acads@iima.ac.in OR from:prep@iima.ac.in OR from:admission@iima.ac.in OR from:am-pgp3@iima.ac.in OR from:esampark@iima.ac.in OR from:agm-pgp@iima.ac.in OR from:chr-ob@iima.ac.in OR from:noreply-online@iima.ac.in OR from:am-pgpfabm1@iima.ac.in",
+      "priority": 8
+    },
+    {
+      "title": "SIF",
+      "label": "IIMA/SIF",
+      "query": "to:iima-sif@iima.ac.in -from:optima@iima.ac.in",
+      "priority": 9
+    },
+    {
+      "title": "Student Governance",
+      "label": "IIMA/Student Governance",
+      "query": "from:sjc@iima.ac.in",
+      "priority": 10
+    },
+    {
+      "title": "Career Clubs",
+      "label": "IIMA/Career Clubs",
+      "query": "from:niche@iima.ac.in OR from:gmlc@iima.ac.in OR from:pmtechclub@iima.ac.in OR from:consultclub@iima.ac.in OR from:beta@iima.ac.in OR from:eloquence@iima.ac.in OR from:optima@iima.ac.in",
+      "priority": 11
+    },
+    {
+      "title": "Other Clubs - part 1",
+      "label": "IIMA/Other Clubs",
+      "query": "from:mediacell@iima.ac.in OR from:cultcomm@iima.ac.in OR from:madclub@iima.ac.in OR from:prayaas@iima.ac.in OR from:pawsible@iima.ac.in OR from:trbc@iima.ac.in OR from:slc@iima.ac.in OR from:ccc@iima.ac.in OR from:careers-ec@iima.ac.in OR from:mentorshipteam@iima.ac.in OR from:scholarship@iima.ac.in OR from:sac_scholarship@iima.ac.in OR from:fab_club@iima.ac.in OR from:eosc@iima.ac.in OR from:finesse@iima.ac.in",
+      "priority": 12
+    },
+    {
+      "title": "Other Clubs - part 2",
+      "label": "IIMA/Other Clubs",
+      "query": "from:mosaic@iima.ac.in OR from:exchangecouncil@iima.ac.in OR from:entre@iima.ac.in OR from:akashk@iima.ac.in OR from:literarydesk@iima.ac.in OR from:extandexch-ec@iima.ac.in OR from:fests-ec@iima.ac.in OR from:sportscomm@iima.ac.in OR from:messcomm@iima.ac.in OR from:mediasecretary@iima.ac.in OR from:infraitdorm-ec@iima.ac.in OR from:ctl@iima.ac.in OR from:soulcurry@iima.ac.in OR from:caooffice@iima.ac.in OR from:bpgpicc@iima.ac.in OR from:generalsecretary@iima.ac.in OR from:culturalsecretary@iima.ac.in",
+      "priority": 13
+    },
+    {
+      "title": "Hostel and Facilities",
+      "label": "IIMA/Hostel & Facilities",
+      "query": "from:electricbilling@iima.ac.in OR from:donotreplyelectricbilling@iima.ac.in OR from:sao@iima.ac.in OR from:exec-sao1@iima.ac.in OR from:gm-ese@iima.ac.in OR from:manager-sa@iima.ac.in",
+      "priority": 14
+    },
+    {
+      "title": "Wellness",
+      "label": "IIMA/Wellness",
+      "query": "from:manager-ews@iima.ac.in OR from:panacea@iima.ac.in OR from:ews@iima.ac.in OR from:welfareoff@iima.ac.in",
+      "priority": 15
+    },
+    {
+      "title": "Library",
+      "label": "IIMA/Library",
+      "query": "from:libraryit@iima.ac.in OR from:books@iima.ac.in OR from:librarian@iima.ac.in OR from:genadminvsl@iima.ac.in OR from:circulation@iima.ac.in OR from:elibrary.support@openpage.com",
+      "priority": 16
+    },
+    {
+      "title": "The Ken",
+      "label": "IIMA/The Ken",
+      "query": "from:info@the-ken.com",
+      "priority": 17
+    },
+    {
+      "title": "Personal and Govt - Govt and security",
+      "label": "IIMA/Personal & Govt",
+      "query": "from:no-reply-rtionline@nic.in OR from:noreply-dopt@gov.in OR from:accounts.google.com OR from:calendar-noreply@google.com OR from:mail-noreply@google.com",
+      "priority": 18
+    },
+    {
+      "title": "Personal and Govt - accounts and systems",
+      "label": "IIMA/Personal & Govt",
+      "query": "from:tm.openai.com OR from:epigeum.com OR from:ccsupport@iima.ac.in OR from:network1@iima.ac.in OR from:sapapp@iima.ac.in",
+      "priority": 19
+    },
+    {
+      "title": "Form Receipts",
+      "label": "IIMA/Form Receipts",
+      "query": "from:forms-receipts-noreply@google.com",
+      "priority": 20
+    },
+    {
+      "title": "Course Forums",
+      "label": "IIMA/Course Forums",
+      "query": "from:noreply@iima.ac.in -subject:\"Due on\" -subject:\"You have submitted\" -subject:\"Turnitin Digital Receipt\"",
+      "priority": 99
+    }
+  ]
+}
